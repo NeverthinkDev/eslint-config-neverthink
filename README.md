@@ -1,10 +1,13 @@
 # eslint-config-neverthink
+
 Eslint rules enabling Prettier
 
+## Install
+```
+yarn add -D NeverthinkDev/eslint-config-neverthink
+```
 
-## Prettier
-
-### VSCode
+## VSCode
 
 Install Eslint and Prettier extensions.
 
@@ -20,6 +23,6 @@ Add the following settings to VSCode settings.json. (On Mac: Press `CMD + ,`, an
   ],
 ```
 
-### JetBrains Idea, WebStorm, ...
+## JetBrains Idea, WebStorm, ...
 
 Instructions: https://prettier.io/docs/en/webstorm.html
