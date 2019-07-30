@@ -37,6 +37,7 @@ module.exports = {
   rules: {
     "import/named": "error",
     "import/no-cycle": 0,
+    "jest/no-alias-methods": "off",
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
