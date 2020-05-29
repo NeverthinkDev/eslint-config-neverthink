@@ -22,9 +22,9 @@ module.exports = {
     "sourceType": "module"
   },
   plugins: [
-    "react", 
-    "mocha", 
-    "jest", 
+    "react",
+    "mocha",
+    "jest",
     "chai-friendly",
     "import",
     "prettier"
@@ -68,6 +68,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
+        "arrowParens": "avoid",
         "trailingComma": "all",
         "singleQuote": true,
         "printWidth": 120,
