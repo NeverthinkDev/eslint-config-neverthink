@@ -23,6 +23,7 @@ module.exports = {
   },
   plugins: [
     "react",
+    "react-hooks",
     "mocha",
     "jest",
     "chai-friendly",
@@ -64,6 +65,8 @@ module.exports = {
     "react/no-unused-prop-types": "error",
     "react/prefer-es6-class": ["error", "always"],
     "react/prefer-stateless-function": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "strict": ["error", "never"],
     "prettier/prettier": [
       "error",
